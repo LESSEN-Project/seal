@@ -1,6 +1,6 @@
 # SEAL: SocioEconomic Alignment in LLMs
 
-This is the repository for SEAL: SocioEconomic Alignment in LLMs.
+This is the repository for [SEAL: SocioEconomic Alignment in LLMs](https://aclanthology.org/2026.nlp4pi-1.34/).
 
 Authors: Elisa Bassignana, Lorena Calvo-Bartolomé, Esra Dönmez, Marlene Lutz, Arianna Muti, Vera Neplenbroek, Donya Rooein.
 
@@ -31,3 +31,36 @@ uv pip install -e ".[viz]"
   ```
   python ses_topic_modeling.py
   ```
+
+  ## Citation
+If you use the code in this repository, please cite the following paper:
+```
+@inproceedings{bassignana-etal-2026-seal,
+    title = "{SEAL}: {S}ocio{E}conomic Alignment in {LLM}s",
+    author = {Bassignana, Elisa  and
+      Calvo-Bartolom{\'e}, Lorena  and
+      D{\"o}nmez, Esra  and
+      Lutz, Marlene  and
+      Muti, Arianna  and
+      Neplenbroek, Vera  and
+      Rooein, Donya},
+    editor = "Atwell, Katherine  and
+      Borah, Angana  and
+      Dementieva, Daryna  and
+      Kreiss, Elisa  and
+      Kotonya, Neema  and
+      Liu, Jiarui  and
+      Olson, Liz  and
+      Wan, Ruyuan  and
+      Zhao, Jieyu",
+    booktitle = "Proceedings of the Fifth Workshop on {NLP} for Positive Impact ({NLP}4{PI})",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.nlp4pi-1.34/",
+    pages = "418--434",
+    ISBN = "979-8-89176-495-8",
+    abstract = "According to the United Nations Sustainable Development Goals, socioeconomic inequality is one of the defining challenges of the 21st century, as it shapes access to resources and opportunities across societies worldwide. As large language models (LLMs) become widely used for everyday tasks, they have the potential to create positive social impact by expanding access to information, education, writing support, employment guidance, and administrative assistance. However, this potential depends on whether such systems perform equally well for users from different socioeconomic backgrounds. In this paper, we evaluate LLM-generated responses to prompts written by users across socioeconomic groups (lower, middle, and higher), examining disparities in helpfulness, sycophancy, human likeness, emotion, and text complexity. We find differences in quality of service across socioeconomic statuses (SES): lower-SES groups receive responses that are less helpful, less complex, less assertive, more negative in sentiment, less trust-oriented, and more sycophantically validating."
+}
+```
