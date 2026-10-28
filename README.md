@@ -32,7 +32,7 @@ uv pip install -e ".[viz]"
   python ses_topic_modeling.py
   ```
 
-  ## Citation
+## Citation
 If you use the code in this repository, please cite the following paper:
 ```
 @inproceedings{bassignana-etal-2026-seal,
